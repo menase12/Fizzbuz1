@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        int i;
+        int i,k,m;
         Scanner number=new Scanner(System.in);
         System.out.print("Please enter your number: ");
                i=number.nextInt();
@@ -39,7 +39,12 @@ public class Main {
 System.out.printf ("The number of multiplies of 7 is:    %d \n",i/7);
 System.out.printf ("The number of multiplies of 17 is:   %d \n", i/17);
 System.out.printf ("The number of multiplies of 23 is:   %d \n", i/23);
+ System.out.print("Please enter another number to find another multiple you need : ");
+ k=number.nextInt();
 
+        System.out.printf ("The number of multiplies of "+ k +" is:    %d \n",i/k);
+//        System.out.printf ("The number of multiplies of 17 is:   %d \n", k/17);
+//        System.out.printf ("The number of multiplies of 23 is:   %d \n", k/23);
 }
 }
 
